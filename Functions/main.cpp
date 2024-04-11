@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
+//прототип
 int Sum(int a, int b);
 int Diff(int a, int b);
 int Prod(int a, int b);
@@ -7,13 +8,14 @@ double Quot(int a, int b);
 double Factorial(int n);
 double Power(double a, int n);
 
-//#define CLASSWORK
+#define CLASSWORK
 //#define FACTORIAL
-#define POWER
+//#define POWER
 
 void main()
 {
 	setlocale(LC_ALL, "");
+	//реализация
 
 #ifdef CLASSWORK
 		cout << "Hello Functions" << endl;

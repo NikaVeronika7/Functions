@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions", "Functions\Functions.vcxproj", "{89742973-3E1E-45DF-9505-2AB803F128A8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arrays", "Arrays\Arrays.vcxproj", "{932DB1E2-E174-4608-9AF1-5F5B9E45D4A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{89742973-3E1E-45DF-9505-2AB803F128A8}.Release|x64.Build.0 = Release|x64
 		{89742973-3E1E-45DF-9505-2AB803F128A8}.Release|x86.ActiveCfg = Release|Win32
 		{89742973-3E1E-45DF-9505-2AB803F128A8}.Release|x86.Build.0 = Release|Win32
+		{932DB1E2-E174-4608-9AF1-5F5B9E45D4A4}.Debug|x64.ActiveCfg = Debug|x64
+		{932DB1E2-E174-4608-9AF1-5F5B9E45D4A4}.Debug|x64.Build.0 = Debug|x64
+		{932DB1E2-E174-4608-9AF1-5F5B9E45D4A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{932DB1E2-E174-4608-9AF1-5F5B9E45D4A4}.Debug|x86.Build.0 = Debug|Win32
+		{932DB1E2-E174-4608-9AF1-5F5B9E45D4A4}.Release|x64.ActiveCfg = Release|x64
+		{932DB1E2-E174-4608-9AF1-5F5B9E45D4A4}.Release|x64.Build.0 = Release|x64
+		{932DB1E2-E174-4608-9AF1-5F5B9E45D4A4}.Release|x86.ActiveCfg = Release|Win32
+		{932DB1E2-E174-4608-9AF1-5F5B9E45D4A4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
