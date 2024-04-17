@@ -1,4 +1,4 @@
-
+п»ї
 #include <iostream>
 using std::cin;
 using std::cout;
@@ -9,12 +9,12 @@ using std::endl;
 void FillRand(int arr[], const int n);
 void Print(const int arr[], const int n);
 void Sort(int arr[], const int n);
-int Sum(int arr[], const int n);//возвращает сумму элементов массива//
-double Avg(int arr[], const int n);//возвращает среднее-арифметическое элементов массива//
-int minValueIn (int arr[], int n);//возвращает минимальное значение в массиве
-int maxValueIn(int arr[], int n);//возвращает максимальное значение в массиве
-void shiftleft(int arr[], int n, int number_of_shifts);//сдвигает массив на заданное число элементов влево
-void shiftRight(int arr[], int n, int number_of_shifts);//сдвигает массив на заданное число элементов вправо
+int Sum(int arr[], const int n);//РІРѕР·РІСЂР°С‰Р°РµС‚ СЃСѓРјРјСѓ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°//
+double Avg(int arr[], const int n);//РІРѕР·РІСЂР°С‰Р°РµС‚ СЃСЂРµРґРЅРµРµ-Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°//
+int minValueIn (int arr[], int n);//РІРѕР·РІСЂР°С‰Р°РµС‚ РјРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РІ РјР°СЃСЃРёРІРµ
+int maxValueIn(int arr[], int n);//РІРѕР·РІСЂР°С‰Р°РµС‚ РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РІ РјР°СЃСЃРёРІРµ
+void shiftleft(int arr[], int n, int number_of_shifts);//СЃРґРІРёРіР°РµС‚ РјР°СЃСЃРёРІ РЅР° Р·Р°РґР°РЅРЅРѕРµ С‡РёСЃР»Рѕ СЌР»РµРјРµРЅС‚РѕРІ РІР»РµРІРѕ
+void shiftRight(int arr[], int n, int number_of_shifts);//СЃРґРІРёРіР°РµС‚ РјР°СЃСЃРёРІ РЅР° Р·Р°РґР°РЅРЅРѕРµ С‡РёСЃР»Рѕ СЌР»РµРјРµРЅС‚РѕРІ РІРїСЂР°РІРѕ
 
 
 
@@ -27,15 +27,15 @@ void main()
 	Print(arr, n);
 	Sort(arr, n);
 	Print(arr, n);
-	cout << "Сумма элементов массива:" << Sum(arr, n) << endl;
-	cout << "Средне-арифметическое:" << Avg(arr, n) << endl;
-	cout << "Минимальное значение:" << minValueIn(arr, n) << endl;
-	cout << "Максимальное значение:" << maxValueIn(arr, n) << endl;
+	cout << "РЎСѓРјРјР° СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°:" << Sum(arr, n) << endl;
+	cout << "РЎСЂРµРґРЅРµ-Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ:" << Avg(arr, n) << endl;
+	cout << "РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ:" << minValueIn(arr, n) << endl;
+	cout << "РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ:" << maxValueIn(arr, n) << endl;
 	int number_of_shifts;
-	cout << "ввелите количесво сдвигов:"; cin >> number_of_shifts;
+	cout << "РІРІРµР»РёС‚Рµ РєРѕР»РёС‡РµСЃРІРѕ СЃРґРІРёРіРѕРІ:"; cin >> number_of_shifts;
 	shiftleft(arr, n, number_of_shifts);
 	Print(arr, n);
-	cout << "ввелите количесво сдвигов:"; cin >> number_of_shifts;
+	cout << "РІРІРµР»РёС‚Рµ РєРѕР»РёС‡РµСЃРІРѕ СЃРґРІРёРіРѕРІ:"; cin >> number_of_shifts;
 	shiftRight(arr, n, number_of_shifts);
 	Print(arr, n);
 
@@ -83,7 +83,7 @@ int Sum (int arr[], const int n)
 	}
 double Avg(int arr[], const int n)
 {
-	return Sum(arr, n) / (double)n;// неявное преобразование  - или перед суммой или после. в нач. нельзя инт
+	return Sum(arr, n) / (double)n;// РЅРµСЏРІРЅРѕРµ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ  - РёР»Рё РїРµСЂРµРґ СЃСѓРјРјРѕР№ РёР»Рё РїРѕСЃР»Рµ. РІ РЅР°С‡. РЅРµР»СЊР·СЏ РёРЅС‚
 }
 
 int minValueIn(int arr[], const int n)
